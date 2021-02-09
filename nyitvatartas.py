@@ -4,5 +4,5 @@ ido = int(input("Adj meg egy időt. "))
 if ido < 8 or ido >= 16:
   print("Nincs nyitva")
 else:
-  print("Nyitva")
+  print("Nyitva", 16 - ido, "ó ennyi idő van zárásig")
 
