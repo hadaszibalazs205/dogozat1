@@ -2,7 +2,12 @@
 
 vissza_szamlalas =input("Adjon meg egy számot. ")
 vissza_szamlalas = int(vissza_szamlalas)
-
+karbantartas = input("Volt-e szükség felfüggesztésre (igen/nem)")
+"igen" == True
+"nem" == False
 while vissza_szamlalas > -1:
   print(vissza_szamlalas)
-  vissza_szamlalas = vissza_szamlalas -1
+  vissza_szamlalas = vissza_szamlalas - 1
+  while karbantartas == True:
+    print("hiba")
+    karbantartas = karbantartas + 1
